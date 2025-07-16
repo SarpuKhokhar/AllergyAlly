@@ -1,0 +1,1591 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CompDB xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" CreatedDate="2025-06-16T10:22:39" Revision="1" SchemaVersion="1.0" BuildInfo="ge_release" Type="Device">
+    <Features>
+        <Feature Type="Edge" FeatureID="EdgeBrowser" Group="Edge">
+            <Packages>
+                <Package ID="EdgeBrowserPackage" PackageType="EdgePackage"/>
+            </Packages>
+        </Feature>
+        <Feature Type="Edge" FeatureID="EdgeWebView" Group="Edge">
+            <Packages>
+                <Package ID="EdgeWebViewPackage" PackageType="EdgePackage"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="App.StepsRecorder~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Browser.InternetExplorer~~11.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Client.WOW64~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Client-Desktop-Required-WOW64-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="DirectX.Configuration.Database~~1.0" Group="Microsoft">
+            <Intent value="AVOID"/>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Edge.Webview2.Platform~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Edge-WebView-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Hello.Face.20134~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Language.Basic~en-US~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Language.Handwriting~en-US~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Language.OCR~en-US~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Language.Speech~en-US~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Language.TextToSpeech~en-US~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Language.UI.Client~en-US" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="MathRecognizer~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Media.DolbyFeaturePack~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Dolby-Features-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Media.WindowsMediaPlayer~~12.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Wallpapers.Extended~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Ethernet.Client.Intel.E1i68x64~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Ethernet.Client.Intel.E2f68~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Ethernet.Client.Realtek.Rtcx21x64~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Ethernet.Client.Vmware.Vmxnet3~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Notepad.System~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.PowerShell.ISE~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Sense.Client~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-SenseClient-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Broadcom.Bcmpciedhd63~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63al~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Broadcom.Bcmwl63a~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwbw02~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwew00~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwew01~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwlv64~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwns64~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwsw00~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwtw02~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwtw04~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwtw06~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwtw08~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Intel.Netwtw10~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Marvel.Mrvlpcie8897~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Qualcomm.Athw8x~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Qualcomm.Athwnx~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Qualcomm.Qcamain10x64~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Ralink.Netr28x~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Realtek.Rtl8192se~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane01~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane13~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Microsoft.Windows.Wifi.Client.Realtek.Rtwlane~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-MediaPlayback" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-Microsoft-RemoteDesktopConnection" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-MicrosoftWindowsPowerShellV2" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-MicrosoftWindowsPowerShellV2Root" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-MSRDC-Infrastructure" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-NetFx4-AdvSrvs" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-Printing-Foundation-Features" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-Printing-Foundation-InternetPrinting-Client" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-Printing-PrintToPDFServices-Features" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-Printing-XPSServices-Features" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-SearchEngine-Client-Package" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-SmbDirect" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-WCF-Services45" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-WCF-TCP-PortSharing45" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-WindowsMediaPlayer" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-WorkFolders-Client" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OneCoreUAP.OneSync~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OpenSSH.Client~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="OpenSSH-Client-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Print.Fax.Scan~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Print.Management.Console~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Professional_en-US" Group="Microsoft">
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="VBSCRIPT~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.Client.ProjFS~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.DirectoryServices.ADAM.Client.Content~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.HyperV.OptionalFeature.VirtualMachinePlatform.Client.Disabled~" Group="Microsoft">
+            <Packages>
+                <Package ID="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.Kernel.LA57~~1.0" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Kernel-LA57-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.SimpleTCP.Content~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.SmbDirect~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-SmbDirect-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.Telnet.Client~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.TerminalServices.AppServerClient~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.TFTP.Client~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.WinOcr~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="Windows.WorkFolders.Client~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="WMIC~" Group="Microsoft">
+            <Packages>
+                <Package ID="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~"/>
+            </Packages>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt" PackageType="MSIXMainPackage"/>
+                <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_neutral_split.scale-100_8j3eq9eme6ctt" PackageType="MSIXResourcePackage"/>
+                <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_neutral_~_8j3eq9eme6ctt" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Clipchamp.Clipchamp_yxz26nhyzhsrt" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Clipchamp.Clipchamp_4.2.10220.0_x64__yxz26nhyzhsrt" PackageType="MSIXMainPackage"/>
+                <Package ID="Clipchamp.Clipchamp_4.2.10220.0_neutral_split.scale-100_yxz26nhyzhsrt" PackageType="MSIXResourcePackage"/>
+                <Package ID="Clipchamp.Clipchamp_4.2.10220.0_neutral_~_yxz26nhyzhsrt" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.549981C3F5F10_4.2308.1005.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.549981C3F5F10_4.2308.1005.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.Advertising.Xaml_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Advertising.Xaml_10.1808.3.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.Advertising.Xaml_10.1811.1.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.Advertising.Xaml_10.1811.1.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.ApplicationCompatibilityEnhancements_1.2411.16.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.ApplicationCompatibilityEnhancements_1.2411.16.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.AV1VideoExtension_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.AV1VideoExtension_1.3.4.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.AV1VideoExtension_1.3.4.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.AVCEncoderVideoExtension_1.1.17.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.AVCEncoderVideoExtension_1.1.17.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.BingNews_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.BingNews_4.55.62231.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.BingNews_4.55.62231.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.BingNews_4.8.11001.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.BingSearch_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.BingSearch_1.1.40.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.BingSearch_1.1.40.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.BingSearch_2022.1.40.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.BingWeather_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.BingWeather_4.54.63007.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.BingWeather_4.54.63007.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.BingWeather_4.54.63007.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.DesktopAppInstaller_1.25.390.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.DesktopAppInstaller_1.25.390.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.DesktopAppInstaller_2025.402.233.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.Edge.GameAssist_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Edge.GameAssist_1.0.3336.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.GamingApp_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.GamingApp_2505.1001.9.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.GamingApp_2505.1001.9.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.GamingApp_2505.1001.9.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.GetHelp_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.GetHelp_10.2409.22951.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.GetHelp_10.2409.22951.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Getstarted_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Getstarted_2021.2312.1.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.HEIFImageExtension_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.HEIFImageExtension_1.2.16.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.HEIFImageExtension_1.2.16.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Microsoft3DViewer_7.2502.5012.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Microsoft3DViewer_2025.2502.5012.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.MicrosoftEdge.Stable_136.0.3240.76_neutral__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.MicrosoftSolitaireCollection_4.22.5200.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.MicrosoftSolitaireCollection_4.22.5200.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.MPEG2VideoExtension_1.0.61931.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.MPEG2VideoExtension_1.0.61931.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.MSPaint_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.MSPaint_6.1907.29027.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.MSPaint_2019.729.2301.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.NET.Native.Framework.1.7_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.NET.Native.Framework.2.2_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.NET.Native.Runtime.1.7_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Office.OneNote_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Office.OneNote_16001.14326.22348.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Office.OneNote_16001.14326.22348.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.OutlookForWindows_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.OutlookForWindows_1.2025.604.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Paint_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Paint_11.2503.381.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Paint_11.2503.381.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.Paint_11.2503.381.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.People_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.People_10.2202.100.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.People_2021.2202.100.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.PowerAutomateDesktop_1.0.1420.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.PowerAutomateDesktop_1.0.1420.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.PowerAutomateDesktop_11.2506.143.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+            <Intent value="PREFERSTUB"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.RawImageExtension_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.RawImageExtension_2.5.5.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.RawImageExtension_2.5.5.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.ScreenSketch_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.ScreenSketch_11.2503.29.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.ScreenSketch_11.2503.29.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.ScreenSketch_2022.2503.29.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.SecHealthUI_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.SecHealthUI_1000.27840.1000.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.Services.Store.Engagement_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Services.Store.Engagement_10.0.23012.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.Services.Store.Engagement_10.0.23012.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.SkypeApp_kzf8qxf38zg5c" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.SkypeApp_15.150.3125.0_neutral_~_kzf8qxf38zg5c" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.StorePurchaseApp_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.StorePurchaseApp_22504.1401.4.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.StorePurchaseApp_22504.1401.4.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Todos_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Todos_0.148.3611.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Todos_0.148.3611.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.Todos_2.148.3611.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+            <Intent value="PREFERSTUB"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.UI.Xaml.2.0_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.UI.Xaml.2.0_2.1810.18004.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.UI.Xaml.2.0_2.1810.18004.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.UI.Xaml.2.3_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.UI.Xaml.2.3_2.32002.13001.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.UI.Xaml.2.3_2.32002.13001.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.UI.Xaml.2.4_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.UI.Xaml.2.4_2.42007.9001.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.UI.Xaml.2.7_7.2409.9001.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.UI.Xaml.2.7_7.2409.9001.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.UI.Xaml.2.7_7.2208.15002.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.UI.Xaml.2.8_8.2501.31001.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.UI.Xaml.CBS_9.2311.10002.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.VCLibs.140.00_14.0.33519.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.VP9VideoExtensions_1.2.6.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.VP9VideoExtensions_1.2.6.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Wallet_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Wallet_2.4.18324.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WebMediaExtensions_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WebMediaExtensions_1.2.14.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WebMediaExtensions_1.2.14.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WebpImageExtension_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WebpImageExtension_1.2.10.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WebpImageExtension_1.2.10.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.Windows.AugLoop.CBS_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Windows.AugLoop.CBS_1.1126.2131.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Windows.DevHome_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Windows.DevHome_0.2100.858.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Windows.DevHome_0.2100.858.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.Windows.DevHome_0.2101.858.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+            <Intent value="PREFERSTUB"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Windows.Photos_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Windows.Photos_2025.11040.23001.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Windows.Photos_2025.11040.23001.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsAlarms_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsAlarms_11.2503.4.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsAlarms_11.2503.4.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.WindowsAlarms_2021.2503.4.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.486.517.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.WindowsAppRuntime.1.7_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.498.2246.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x86__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+                <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.WindowsAppRuntime.CBS.1.6_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsAppRuntime.CBS.1.6_6000.498.2125.100_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsAppRuntime.CBS_5001.373.1736.100_x64__8wekyb3d8bbwe" PackageType="MSIXFrameworkPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsCalculator_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsCalculator_11.2502.2.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsCalculator_11.2502.2.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.WindowsCalculator_2021.2502.2.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsCamera_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsCamera_2025.2502.17.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsCamera_2025.2502.17.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.WindowsCamera_2022.2502.17.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="microsoft.windowscommunicationsapps_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="microsoft.windowscommunicationsapps_16005.14326.22342.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsFeedbackHub_1.2505.1101.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsFeedbackHub_1.2505.1101.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.WindowsFeedbackHub_2025.501.912.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsMaps_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsMaps_11.2503.1.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsMaps_11.2503.1.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.WindowsMaps_2022.2503.1.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsNotepad_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsSoundRecorder_11.2504.0.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsSoundRecorder_11.2504.0.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.WindowsSoundRecorder_2021.2504.0.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsStore_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsStore_22504.1401.19.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsStore_22504.1401.19.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.WindowsTerminal_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.WindowsTerminal_3001.22.11141.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.Xbox.TCUI_1.24.10001.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.XboxApp_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.XboxApp_48.104.4001.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.XboxGameOverlay_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.XboxIdentityProvider_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.XboxIdentityProvider_12.115.1001.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.XboxIdentityProvider_12.115.1001.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-125_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.XboxSpeechToTextOverlay_2024.401.618.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.YourPhone_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.YourPhone_1.25042.96.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.YourPhone_1.25042.96.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.YourPhone_1.25042.96.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.ZuneMusic_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.ZuneMusic_11.2504.4.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.ZuneMusic_11.2504.4.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.ZuneMusic_11.2504.4.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="Microsoft.ZuneVideo_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="Microsoft.ZuneVideo_10.25041.10021.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="Microsoft.ZuneVideo_10.25041.10021.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="Microsoft.ZuneVideo_2019.25041.10021.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+                <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_neutral_split.scale-100_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_neutral_split.scale-125_8wekyb3d8bbwe" PackageType="MSIXResourcePackage"/>
+                <Package ID="MicrosoftCorporationII.QuickAssist_2024.401.618.0_neutral_~_8wekyb3d8bbwe" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="MicrosoftWindows.Client.WebExperience_525.10401.30.0_x64__cw5n1h2txyewy" PackageType="MSIXMainPackage"/>
+                <Package ID="MicrosoftWindows.Client.WebExperience_525.10401.30.0_neutral_~_cw5n1h2txyewy" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIXBundle" FeatureID="MicrosoftWindows.CrossDevice_cw5n1h2txyewy" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_x64__cw5n1h2txyewy" PackageType="MSIXMainPackage"/>
+                <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_neutral_split.scale-100_cw5n1h2txyewy" PackageType="MSIXResourcePackage"/>
+                <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_neutral_~_cw5n1h2txyewy" PackageType="MSIXBundlePackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="MSIX" FeatureID="MSTeams_8wekyb3d8bbwe" Group="PreInstalledApps">
+            <Packages>
+                <Package ID="MSTeams_25122.1415.3698.6812_x64__8wekyb3d8bbwe" PackageType="MSIXMainPackage"/>
+            </Packages>
+            <Token value="INSTALLED"/>
+            <Intent value="MSIX"/>
+        </Feature>
+        <Feature Type="UUPProduct" FeatureID="MSRT.amd64" Group="UUPProduct">
+            <Packages>
+                <Package ID="MSRT.amd64" PackageType="UUPProductPackage"/>
+            </Packages>
+        </Feature>
+        <Feature Type="UUPProduct" FeatureID="RevocationList.amd64" Group="UUPProduct">
+            <Packages>
+                <Package ID="RevocationList.amd64" PackageType="UUPProductPackage"/>
+            </Packages>
+        </Feature>
+        <Feature Type="UUPProduct" FeatureID="VulnerableDriverBlocklist.amd64" Group="UUPProduct">
+            <Packages>
+                <Package ID="VulnerableDriverBlocklist.amd64" PackageType="UUPProductPackage"/>
+            </Packages>
+        </Feature>
+        <Feature Type="DesktopMedia" FeatureID="OC-Recall">
+            <Intent value="AVOID"/>
+        </Feature>
+    </Features>
+    <Packages>
+        <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_neutral_split.scale-100_8j3eq9eme6ctt" KeyForm="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.100.5688.0"/>
+        <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_neutral_~_8j3eq9eme6ctt" KeyForm="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.100.5688.0"/>
+        <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt" KeyForm="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.100.5688.0"/>
+        <Package ID="Clipchamp.Clipchamp_4.2.10220.0_neutral_split.scale-100_yxz26nhyzhsrt" KeyForm="Clipchamp.Clipchamp_yxz26nhyzhsrt" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="4.2.10220.0"/>
+        <Package ID="Clipchamp.Clipchamp_4.2.10220.0_neutral_~_yxz26nhyzhsrt" KeyForm="Clipchamp.Clipchamp_yxz26nhyzhsrt" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="4.2.10220.0"/>
+        <Package ID="Clipchamp.Clipchamp_4.2.10220.0_x64__yxz26nhyzhsrt" KeyForm="Clipchamp.Clipchamp_yxz26nhyzhsrt" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="4.2.10220.0"/>
+        <Package ID="EdgeBrowserPackage" KeyForm="EdgeBrowserPackage" Type="EdgePackage" Version="137.0.3296.83"/>
+        <Package ID="EdgeWebViewPackage" KeyForm="EdgeWebViewPackage" Type="EdgePackage" Version="137.0.3296.83"/>
+        <Package ID="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="HyperV-OptionalFeature-VirtualMachinePlatform-Client-Disabled-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4349"/>
+        <Package ID="Microsoft-Edge-WebView-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Edge-WebView-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-OneCore-ApplicationModel-Sync-Desktop-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Client-Desktop-Required-WOW64-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Client-Desktop-Required-WOW64-Package~31bf3856ad364e35~amd64~~10.0.26100.4349"/>
+        <Package ID="Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~" KeyForm="Microsoft-Windows-Client-LanguagePack-Package~31bf3856ad364e35~amd64~en-US~10.0.26100.4349"/>
+        <Package ID="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-DirectoryServices-ADAM-Client-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Dolby-Features-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Dolby-Features-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-EnterpriseClientSync-Host-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Ethernet-Client-Intel-E1i68x64-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Ethernet-Client-Intel-E2f68-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Ethernet-Client-Realtek-Rtcx21x64-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Ethernet-Client-Vmware-Vmxnet3-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Hello-Face-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-InternetExplorer-Optional-Package~31bf3856ad364e35~amd64~~11.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Kernel-LA57-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Kernel-LA57-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-LanguageFeatures-Basic-en-us-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-LanguageFeatures-Handwriting-en-us-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-LanguageFeatures-OCR-en-us-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-LanguageFeatures-Speech-en-us-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-LanguageFeatures-TextToSpeech-en-us-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-MediaPlayer-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Notepad-System-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-PowerShell-ISE-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Printing-PMCPPC-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Printing-WFS-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-ProjFS-OptionalFeature-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-SenseClient-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-SenseClient-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-SimpleTCP-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-SmbDirect-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-SmbDirect-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-StepsRecorder-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-TabletPCMath-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Telnet-Client-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-TerminalServices-AppServer-Client-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.1"/>
+        <Package ID="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-TFTP-Client-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-VBSCRIPT-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wallpaper-Content-Extended-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Broadcom-Bcmpciedhd63-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63a-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Broadcom-Bcmwl63al-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwbw02-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwew00-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwew01-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwlv64-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwns64-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwsw00-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwtw02-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwtw04-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwtw06-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwtw08-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Intel-Netwtw10-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Marvel-Mrvlpcie8897-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Qualcomm-Athw8x-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Qualcomm-Athwnx-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Qualcomm-Qcamain10x64-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Ralink-Netr28x-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Realtek-Rtl8192se-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane01-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-Wifi-Client-Realtek-Rtwlane13-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-WinOcr-FOD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~" KeyForm="Microsoft-Windows-WMIC-FoD-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="Microsoft.549981C3F5F10_4.2308.1005.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="4.2308.1005.0"/>
+        <Package ID="Microsoft.549981C3F5F10_4.2308.1005.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="4.2308.1005.0"/>
+        <Package ID="Microsoft.Advertising.Xaml_10.1808.3.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Advertising.Xaml_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="10.1808.3.0"/>
+        <Package ID="Microsoft.Advertising.Xaml_10.1811.1.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Advertising.Xaml_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="10.1811.1.0"/>
+        <Package ID="Microsoft.Advertising.Xaml_10.1811.1.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.Advertising.Xaml_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="10.1811.1.0"/>
+        <Package ID="Microsoft.ApplicationCompatibilityEnhancements_1.2411.16.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.2411.16.0"/>
+        <Package ID="Microsoft.ApplicationCompatibilityEnhancements_1.2411.16.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.2411.16.0"/>
+        <Package ID="Microsoft.AV1VideoExtension_1.3.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.AV1VideoExtension_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.3.4.0"/>
+        <Package ID="Microsoft.AV1VideoExtension_1.3.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.AV1VideoExtension_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.3.4.0"/>
+        <Package ID="Microsoft.AVCEncoderVideoExtension_1.1.17.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.1.17.0"/>
+        <Package ID="Microsoft.AVCEncoderVideoExtension_1.1.17.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.1.17.0"/>
+        <Package ID="Microsoft.BingNews_4.55.62231.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.BingNews_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="4.55.62231.0"/>
+        <Package ID="Microsoft.BingNews_4.55.62231.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.BingNews_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="4.55.62231.0"/>
+        <Package ID="Microsoft.BingNews_4.8.11001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.BingNews_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="4.8.11001.0"/>
+        <Package ID="Microsoft.BingSearch_1.1.40.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.BingSearch_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.1.40.0"/>
+        <Package ID="Microsoft.BingSearch_1.1.40.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.BingSearch_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.1.40.0"/>
+        <Package ID="Microsoft.BingSearch_2022.1.40.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.BingSearch_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2022.1.40.0"/>
+        <Package ID="Microsoft.BingWeather_4.54.63007.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.BingWeather_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="4.54.63007.0"/>
+        <Package ID="Microsoft.BingWeather_4.54.63007.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.BingWeather_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="4.54.63007.0"/>
+        <Package ID="Microsoft.BingWeather_4.54.63007.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.BingWeather_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="4.54.63007.0"/>
+        <Package ID="Microsoft.DesktopAppInstaller_1.25.390.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.25.390.0"/>
+        <Package ID="Microsoft.DesktopAppInstaller_1.25.390.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.25.390.0"/>
+        <Package ID="Microsoft.DesktopAppInstaller_2025.402.233.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2025.402.233.0"/>
+        <Package ID="Microsoft.Edge.GameAssist_1.0.3336.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Edge.GameAssist_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.0.3336.0"/>
+        <Package ID="Microsoft.GamingApp_2505.1001.9.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.GamingApp_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="2505.1001.9.0"/>
+        <Package ID="Microsoft.GamingApp_2505.1001.9.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.GamingApp_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2505.1001.9.0"/>
+        <Package ID="Microsoft.GamingApp_2505.1001.9.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.GamingApp_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="2505.1001.9.0"/>
+        <Package ID="Microsoft.GetHelp_10.2409.22951.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.GetHelp_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="10.2409.22951.0"/>
+        <Package ID="Microsoft.GetHelp_10.2409.22951.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.GetHelp_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="10.2409.22951.0"/>
+        <Package ID="Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Getstarted_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="10.2312.1.0"/>
+        <Package ID="Microsoft.Getstarted_2021.2312.1.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Getstarted_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2021.2312.1.0"/>
+        <Package ID="Microsoft.HEIFImageExtension_1.2.16.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.HEIFImageExtension_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.2.16.0"/>
+        <Package ID="Microsoft.HEIFImageExtension_1.2.16.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.HEIFImageExtension_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.2.16.0"/>
+        <Package ID="Microsoft.Microsoft3DViewer_2025.2502.5012.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2025.2502.5012.0"/>
+        <Package ID="Microsoft.Microsoft3DViewer_7.2502.5012.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="7.2502.5012.0"/>
+        <Package ID="Microsoft.MicrosoftEdge.Stable_136.0.3240.76_neutral__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="neutral" Version="136.0.3240.76"/>
+        <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="19.2506.40071.0"/>
+        <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="19.2506.40071.0"/>
+        <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="19.2506.40071.0"/>
+        <Package ID="Microsoft.MicrosoftSolitaireCollection_4.22.5200.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="4.22.5200.0"/>
+        <Package ID="Microsoft.MicrosoftSolitaireCollection_4.22.5200.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="4.22.5200.0"/>
+        <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="6.1.4.0"/>
+        <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="6.1.4.0"/>
+        <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="6.1.4.0"/>
+        <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="2000.21051.1282.0"/>
+        <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2000.21051.1282.0"/>
+        <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="2000.21051.1282.0"/>
+        <Package ID="Microsoft.MPEG2VideoExtension_1.0.61931.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.0.61931.0"/>
+        <Package ID="Microsoft.MPEG2VideoExtension_1.0.61931.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.0.61931.0"/>
+        <Package ID="Microsoft.MSPaint_2019.729.2301.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MSPaint_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2019.729.2301.0"/>
+        <Package ID="Microsoft.MSPaint_6.1907.29027.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MSPaint_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="6.1907.29027.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.1.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="1.7.27413.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.1.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="1.7.27413.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.2.2_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="2.2.29512.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.2.2_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="2.2.29512.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.1.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="1.7.27422.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.1.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="1.7.27422.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="2.2.28604.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="2.2.28604.0"/>
+        <Package ID="Microsoft.Office.OneNote_16001.14326.22348.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Office.OneNote_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="16001.14326.22348.0"/>
+        <Package ID="Microsoft.Office.OneNote_16001.14326.22348.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Office.OneNote_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="16001.14326.22348.0"/>
+        <Package ID="Microsoft.OutlookForWindows_1.2025.604.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.OutlookForWindows_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.2025.604.0"/>
+        <Package ID="Microsoft.Paint_11.2503.381.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.Paint_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2503.381.0"/>
+        <Package ID="Microsoft.Paint_11.2503.381.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Paint_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="11.2503.381.0"/>
+        <Package ID="Microsoft.Paint_11.2503.381.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Paint_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2503.381.0"/>
+        <Package ID="Microsoft.People_10.2202.100.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.People_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="10.2202.100.0"/>
+        <Package ID="Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.People_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="10.2202.100.0"/>
+        <Package ID="Microsoft.People_2021.2202.100.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.People_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2021.2202.100.0"/>
+        <Package ID="Microsoft.PowerAutomateDesktop_1.0.1420.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.0.1420.0"/>
+        <Package ID="Microsoft.PowerAutomateDesktop_1.0.1420.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.0.1420.0"/>
+        <Package ID="Microsoft.PowerAutomateDesktop_11.2506.143.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="11.2506.143.0"/>
+        <Package ID="Microsoft.RawImageExtension_2.5.5.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.RawImageExtension_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2.5.5.0"/>
+        <Package ID="Microsoft.RawImageExtension_2.5.5.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.RawImageExtension_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="2.5.5.0"/>
+        <Package ID="Microsoft.ScreenSketch_11.2503.29.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.ScreenSketch_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2503.29.0"/>
+        <Package ID="Microsoft.ScreenSketch_11.2503.29.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ScreenSketch_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2503.29.0"/>
+        <Package ID="Microsoft.ScreenSketch_2022.2503.29.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ScreenSketch_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2022.2503.29.0"/>
+        <Package ID="Microsoft.SecHealthUI_1000.27840.1000.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.SecHealthUI_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1000.27840.1000.0"/>
+        <Package ID="Microsoft.Services.Store.Engagement_10.0.23012.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Services.Store.Engagement_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="10.0.23012.0"/>
+        <Package ID="Microsoft.Services.Store.Engagement_10.0.23012.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.Services.Store.Engagement_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="10.0.23012.0"/>
+        <Package ID="Microsoft.SkypeApp_15.150.3125.0_neutral_~_kzf8qxf38zg5c" KeyForm="Microsoft.SkypeApp_kzf8qxf38zg5c" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="15.150.3125.0"/>
+        <Package ID="Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c" KeyForm="Microsoft.SkypeApp_kzf8qxf38zg5c" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="15.150.3125.0"/>
+        <Package ID="Microsoft.StorePurchaseApp_22504.1401.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.StorePurchaseApp_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="22504.1401.4.0"/>
+        <Package ID="Microsoft.StorePurchaseApp_22504.1401.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.StorePurchaseApp_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="22504.1401.4.0"/>
+        <Package ID="Microsoft.Todos_0.148.3611.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.Todos_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="0.148.3611.0"/>
+        <Package ID="Microsoft.Todos_0.148.3611.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Todos_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="0.148.3611.0"/>
+        <Package ID="Microsoft.Todos_2.148.3611.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Todos_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2.148.3611.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.0_2.1810.18004.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.0_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="2.1810.18004.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.0_2.1810.18004.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.0_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="2.1810.18004.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.3_2.32002.13001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.3_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="2.32002.13001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.3_2.32002.13001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.3_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="2.32002.13001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.4_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="2.42007.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.4_2.42007.9001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.4_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="2.42007.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.7_7.2208.15002.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="7.2208.15002.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.7_7.2409.9001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="7.2409.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.7_7.2409.9001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="7.2409.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="8.2310.30001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="8.2501.31001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.8_8.2501.31001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="8.2501.31001.0"/>
+        <Package ID="Microsoft.UI.Xaml.CBS_9.2311.10002.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="9.2311.10002.0"/>
+        <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="14.0.30704.0"/>
+        <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="14.0.33728.0"/>
+        <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="14.0.33728.0"/>
+        <Package ID="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="14.0.30704.0"/>
+        <Package ID="Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="14.0.33519.0"/>
+        <Package ID="Microsoft.VCLibs.140.00_14.0.33519.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="14.0.33519.0"/>
+        <Package ID="Microsoft.VP9VideoExtensions_1.2.6.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.2.6.0"/>
+        <Package ID="Microsoft.VP9VideoExtensions_1.2.6.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.2.6.0"/>
+        <Package ID="Microsoft.Wallet_2.4.18324.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Wallet_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2.4.18324.0"/>
+        <Package ID="Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Wallet_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="2.4.18324.0"/>
+        <Package ID="Microsoft.WebMediaExtensions_1.2.14.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WebMediaExtensions_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.2.14.0"/>
+        <Package ID="Microsoft.WebMediaExtensions_1.2.14.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WebMediaExtensions_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.2.14.0"/>
+        <Package ID="Microsoft.WebpImageExtension_1.2.10.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WebpImageExtension_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.2.10.0"/>
+        <Package ID="Microsoft.WebpImageExtension_1.2.10.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WebpImageExtension_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.2.10.0"/>
+        <Package ID="Microsoft.Windows.AugLoop.CBS_1.1126.2131.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Windows.AugLoop.CBS_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="1.1126.2131.0"/>
+        <Package ID="Microsoft.Windows.DevHome_0.2100.858.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.Windows.DevHome_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="0.2100.858.0"/>
+        <Package ID="Microsoft.Windows.DevHome_0.2100.858.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Windows.DevHome_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="0.2100.858.0"/>
+        <Package ID="Microsoft.Windows.DevHome_0.2101.858.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Windows.DevHome_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="0.2101.858.0"/>
+        <Package ID="Microsoft.Windows.Photos_2025.11040.23001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Windows.Photos_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2025.11040.23001.0"/>
+        <Package ID="Microsoft.Windows.Photos_2025.11040.23001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Windows.Photos_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="2025.11040.23001.0"/>
+        <Package ID="Microsoft.WindowsAlarms_11.2503.4.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAlarms_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2503.4.0"/>
+        <Package ID="Microsoft.WindowsAlarms_11.2503.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAlarms_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2503.4.0"/>
+        <Package ID="Microsoft.WindowsAlarms_2021.2503.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAlarms_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2021.2503.4.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="4000.1136.2333.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="4000.1309.2056.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="4000.1309.2056.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="5001.373.1736.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="5001.373.1736.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.486.517.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="6000.486.517.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="6000.519.329.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="6000.519.329.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.498.2246.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="7000.498.2246.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="7000.522.1444.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.7_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="x86" Version="7000.522.1444.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.CBS.1.6_6000.498.2125.100_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.CBS.1.6_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="6000.498.2125.100"/>
+        <Package ID="Microsoft.WindowsAppRuntime.CBS_5001.373.1736.100_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe" Type="MSIXFrameworkPackage" BuildArchOverride="amd64" Version="5001.373.1736.100"/>
+        <Package ID="Microsoft.WindowsCalculator_11.2502.2.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCalculator_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2502.2.0"/>
+        <Package ID="Microsoft.WindowsCalculator_11.2502.2.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCalculator_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2502.2.0"/>
+        <Package ID="Microsoft.WindowsCalculator_2021.2502.2.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCalculator_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2021.2502.2.0"/>
+        <Package ID="Microsoft.WindowsCamera_2022.2502.17.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCamera_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2022.2502.17.0"/>
+        <Package ID="Microsoft.WindowsCamera_2025.2502.17.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCamera_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="2025.2502.17.0"/>
+        <Package ID="Microsoft.WindowsCamera_2025.2502.17.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCamera_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="2025.2502.17.0"/>
+        <Package ID="microsoft.windowscommunicationsapps_16005.14326.22342.0_neutral_~_8wekyb3d8bbwe" KeyForm="microsoft.windowscommunicationsapps_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="16005.14326.22342.0"/>
+        <Package ID="microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe" KeyForm="microsoft.windowscommunicationsapps_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="16005.14326.22342.0"/>
+        <Package ID="Microsoft.WindowsFeedbackHub_1.2505.1101.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.2505.1101.0"/>
+        <Package ID="Microsoft.WindowsFeedbackHub_1.2505.1101.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.2505.1101.0"/>
+        <Package ID="Microsoft.WindowsFeedbackHub_2025.501.912.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2025.501.912.0"/>
+        <Package ID="Microsoft.WindowsMaps_11.2503.1.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsMaps_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2503.1.0"/>
+        <Package ID="Microsoft.WindowsMaps_11.2503.1.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsMaps_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2503.1.0"/>
+        <Package ID="Microsoft.WindowsMaps_2022.2503.1.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsMaps_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2022.2503.1.0"/>
+        <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsNotepad_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2503.16.0"/>
+        <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsNotepad_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="11.2503.16.0"/>
+        <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsNotepad_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2503.16.0"/>
+        <Package ID="Microsoft.WindowsSoundRecorder_11.2504.0.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2504.0.0"/>
+        <Package ID="Microsoft.WindowsSoundRecorder_11.2504.0.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2504.0.0"/>
+        <Package ID="Microsoft.WindowsSoundRecorder_2021.2504.0.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2021.2504.0.0"/>
+        <Package ID="Microsoft.WindowsStore_22504.1401.19.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsStore_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="22504.1401.19.0"/>
+        <Package ID="Microsoft.WindowsStore_22504.1401.19.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsStore_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="22504.1401.19.0"/>
+        <Package ID="Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsTerminal_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.22.11141.0"/>
+        <Package ID="Microsoft.WindowsTerminal_3001.22.11141.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsTerminal_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="3001.22.11141.0"/>
+        <Package ID="Microsoft.Xbox.TCUI_1.24.10001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.24.10001.0"/>
+        <Package ID="Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.24.10001.0"/>
+        <Package ID="Microsoft.XboxApp_48.104.4001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxApp_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="48.104.4001.0"/>
+        <Package ID="Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxApp_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="48.104.4001.0"/>
+        <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGameOverlay_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.54.4001.0"/>
+        <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGameOverlay_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.54.4001.0"/>
+        <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxGameOverlay_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.54.4001.0"/>
+        <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="7.325.5191.0"/>
+        <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="7.325.5191.0"/>
+        <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="7.325.5191.0"/>
+        <Package ID="Microsoft.XboxIdentityProvider_12.115.1001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxIdentityProvider_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="12.115.1001.0"/>
+        <Package ID="Microsoft.XboxIdentityProvider_12.115.1001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxIdentityProvider_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="12.115.1001.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.97.17002.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-125_8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.97.17002.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.97.17002.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_2024.401.618.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2024.401.618.0"/>
+        <Package ID="Microsoft.YourPhone_1.25042.96.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.YourPhone_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.25042.96.0"/>
+        <Package ID="Microsoft.YourPhone_1.25042.96.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.YourPhone_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.25042.96.0"/>
+        <Package ID="Microsoft.YourPhone_1.25042.96.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.YourPhone_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.25042.96.0"/>
+        <Package ID="Microsoft.ZuneMusic_11.2504.4.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneMusic_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="11.2504.4.0"/>
+        <Package ID="Microsoft.ZuneMusic_11.2504.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneMusic_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="11.2504.4.0"/>
+        <Package ID="Microsoft.ZuneMusic_11.2504.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ZuneMusic_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="11.2504.4.0"/>
+        <Package ID="Microsoft.ZuneVideo_10.25041.10021.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneVideo_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="10.25041.10021.0"/>
+        <Package ID="Microsoft.ZuneVideo_10.25041.10021.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ZuneVideo_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="10.25041.10021.0"/>
+        <Package ID="Microsoft.ZuneVideo_2019.25041.10021.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneVideo_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2019.25041.10021.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="2.0.29.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_neutral_split.scale-125_8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="2.0.29.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_x64__8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="2.0.29.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2024.401.618.0_neutral_~_8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="2024.401.618.0"/>
+        <Package ID="MicrosoftWindows.Client.WebExperience_525.10401.30.0_neutral_~_cw5n1h2txyewy" KeyForm="MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="525.10401.30.0"/>
+        <Package ID="MicrosoftWindows.Client.WebExperience_525.10401.30.0_x64__cw5n1h2txyewy" KeyForm="MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="525.10401.30.0"/>
+        <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_neutral_split.scale-100_cw5n1h2txyewy" KeyForm="MicrosoftWindows.CrossDevice_cw5n1h2txyewy" Type="MSIXResourcePackage" BuildArchOverride="neutral" Version="1.25042.38.0"/>
+        <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_neutral_~_cw5n1h2txyewy" KeyForm="MicrosoftWindows.CrossDevice_cw5n1h2txyewy" Type="MSIXBundlePackage" BuildArchOverride="neutral" Version="1.25042.38.0"/>
+        <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_x64__cw5n1h2txyewy" KeyForm="MicrosoftWindows.CrossDevice_cw5n1h2txyewy" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="1.25042.38.0"/>
+        <Package ID="MSRT.amd64" KeyForm="MSRT.amd64" Type="UUPProductPackage" Version="5.134.25060.1001"/>
+        <Package ID="MSTeams_25122.1415.3698.6812_x64__8wekyb3d8bbwe" KeyForm="MSTeams_8wekyb3d8bbwe" Type="MSIXMainPackage" BuildArchOverride="amd64" Version="25122.1415.3698.6812"/>
+        <Package ID="OpenSSH-Client-Package~31bf3856ad364e35~amd64~~" KeyForm="OpenSSH-Client-Package~31bf3856ad364e35~amd64~~10.0.26100.4343"/>
+        <Package ID="RevocationList.amd64" KeyForm="RevocationList.amd64" Type="UUPProductPackage" Version="0.0.0.0"/>
+        <Package ID="VulnerableDriverBlocklist.amd64" KeyForm="VulnerableDriverBlocklist.amd64" Type="UUPProductPackage" Version="0.0.0.0"/>
+    </Packages>
+    <EnumeratedPackages>
+        <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_neutral_split.scale-100_8j3eq9eme6ctt" KeyForm="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt" Arch="neutral" Version="1.100.5688.0"/>
+        <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_neutral_~_8j3eq9eme6ctt" KeyForm="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt" Arch="neutral" Version="1.100.5688.0"/>
+        <Package ID="AppUp.IntelGraphicsExperience_1.100.5688.0_x64__8j3eq9eme6ctt" KeyForm="AppUp.IntelGraphicsExperience_8j3eq9eme6ctt" Arch="amd64" Version="1.100.5688.0"/>
+        <Package ID="Clipchamp.Clipchamp_4.2.10220.0_neutral_split.scale-100_yxz26nhyzhsrt" KeyForm="Clipchamp.Clipchamp_yxz26nhyzhsrt" Arch="neutral" Version="4.2.10220.0"/>
+        <Package ID="Clipchamp.Clipchamp_4.2.10220.0_neutral_~_yxz26nhyzhsrt" KeyForm="Clipchamp.Clipchamp_yxz26nhyzhsrt" Arch="neutral" Version="4.2.10220.0"/>
+        <Package ID="Clipchamp.Clipchamp_4.2.10220.0_x64__yxz26nhyzhsrt" KeyForm="Clipchamp.Clipchamp_yxz26nhyzhsrt" Arch="amd64" Version="4.2.10220.0"/>
+        <Package ID="Microsoft.549981C3F5F10_4.2308.1005.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Arch="neutral" Version="4.2308.1005.0"/>
+        <Package ID="Microsoft.549981C3F5F10_4.2308.1005.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.549981C3F5F10_8wekyb3d8bbwe" Arch="amd64" Version="4.2308.1005.0"/>
+        <Package ID="Microsoft.Advertising.Xaml_10.1808.3.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Advertising.Xaml_8wekyb3d8bbwe" Arch="amd64" Version="10.1808.3.0"/>
+        <Package ID="Microsoft.Advertising.Xaml_10.1811.1.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Advertising.Xaml_8wekyb3d8bbwe" Arch="amd64" Version="10.1811.1.0"/>
+        <Package ID="Microsoft.Advertising.Xaml_10.1811.1.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.Advertising.Xaml_8wekyb3d8bbwe" Arch="x86" Version="10.1811.1.0"/>
+        <Package ID="Microsoft.ApplicationCompatibilityEnhancements_1.2411.16.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe" Arch="neutral" Version="1.2411.16.0"/>
+        <Package ID="Microsoft.ApplicationCompatibilityEnhancements_1.2411.16.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ApplicationCompatibilityEnhancements_8wekyb3d8bbwe" Arch="amd64" Version="1.2411.16.0"/>
+        <Package ID="Microsoft.AV1VideoExtension_1.3.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.AV1VideoExtension_8wekyb3d8bbwe" Arch="neutral" Version="1.3.4.0"/>
+        <Package ID="Microsoft.AV1VideoExtension_1.3.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.AV1VideoExtension_8wekyb3d8bbwe" Arch="amd64" Version="1.3.4.0"/>
+        <Package ID="Microsoft.AVCEncoderVideoExtension_1.1.17.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe" Arch="neutral" Version="1.1.17.0"/>
+        <Package ID="Microsoft.AVCEncoderVideoExtension_1.1.17.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.AVCEncoderVideoExtension_8wekyb3d8bbwe" Arch="amd64" Version="1.1.17.0"/>
+        <Package ID="Microsoft.BingNews_4.55.62231.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.BingNews_8wekyb3d8bbwe" Arch="neutral" Version="4.55.62231.0"/>
+        <Package ID="Microsoft.BingNews_4.55.62231.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.BingNews_8wekyb3d8bbwe" Arch="amd64" Version="4.55.62231.0"/>
+        <Package ID="Microsoft.BingNews_4.8.11001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.BingNews_8wekyb3d8bbwe" Arch="neutral" Version="4.8.11001.0"/>
+        <Package ID="Microsoft.BingSearch_1.1.40.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.BingSearch_8wekyb3d8bbwe" Arch="neutral" Version="1.1.40.0"/>
+        <Package ID="Microsoft.BingSearch_1.1.40.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.BingSearch_8wekyb3d8bbwe" Arch="amd64" Version="1.1.40.0"/>
+        <Package ID="Microsoft.BingSearch_2022.1.40.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.BingSearch_8wekyb3d8bbwe" Arch="neutral" Version="2022.1.40.0"/>
+        <Package ID="Microsoft.BingWeather_4.54.63007.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.BingWeather_8wekyb3d8bbwe" Arch="neutral" Version="4.54.63007.0"/>
+        <Package ID="Microsoft.BingWeather_4.54.63007.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.BingWeather_8wekyb3d8bbwe" Arch="neutral" Version="4.54.63007.0"/>
+        <Package ID="Microsoft.BingWeather_4.54.63007.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.BingWeather_8wekyb3d8bbwe" Arch="amd64" Version="4.54.63007.0"/>
+        <Package ID="Microsoft.DesktopAppInstaller_1.25.390.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" Arch="neutral" Version="1.25.390.0"/>
+        <Package ID="Microsoft.DesktopAppInstaller_1.25.390.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" Arch="amd64" Version="1.25.390.0"/>
+        <Package ID="Microsoft.DesktopAppInstaller_2025.402.233.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" Arch="neutral" Version="2025.402.233.0"/>
+        <Package ID="Microsoft.Edge.GameAssist_1.0.3336.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Edge.GameAssist_8wekyb3d8bbwe" Arch="amd64" Version="1.0.3336.0"/>
+        <Package ID="Microsoft.GamingApp_2505.1001.9.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.GamingApp_8wekyb3d8bbwe" Arch="neutral" Version="2505.1001.9.0"/>
+        <Package ID="Microsoft.GamingApp_2505.1001.9.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.GamingApp_8wekyb3d8bbwe" Arch="neutral" Version="2505.1001.9.0"/>
+        <Package ID="Microsoft.GamingApp_2505.1001.9.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.GamingApp_8wekyb3d8bbwe" Arch="amd64" Version="2505.1001.9.0"/>
+        <Package ID="Microsoft.GetHelp_10.2409.22951.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.GetHelp_8wekyb3d8bbwe" Arch="neutral" Version="10.2409.22951.0"/>
+        <Package ID="Microsoft.GetHelp_10.2409.22951.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.GetHelp_8wekyb3d8bbwe" Arch="amd64" Version="10.2409.22951.0"/>
+        <Package ID="Microsoft.Getstarted_10.2312.1.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Getstarted_8wekyb3d8bbwe" Arch="amd64" Version="10.2312.1.0"/>
+        <Package ID="Microsoft.Getstarted_2021.2312.1.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Getstarted_8wekyb3d8bbwe" Arch="neutral" Version="2021.2312.1.0"/>
+        <Package ID="Microsoft.HEIFImageExtension_1.2.16.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.HEIFImageExtension_8wekyb3d8bbwe" Arch="neutral" Version="1.2.16.0"/>
+        <Package ID="Microsoft.HEIFImageExtension_1.2.16.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.HEIFImageExtension_8wekyb3d8bbwe" Arch="amd64" Version="1.2.16.0"/>
+        <Package ID="Microsoft.Microsoft3DViewer_2025.2502.5012.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Arch="neutral" Version="2025.2502.5012.0"/>
+        <Package ID="Microsoft.Microsoft3DViewer_7.2502.5012.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Microsoft3DViewer_8wekyb3d8bbwe" Arch="amd64" Version="7.2502.5012.0"/>
+        <Package ID="Microsoft.MicrosoftEdge.Stable_136.0.3240.76_neutral__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe" Arch="neutral" Version="136.0.3240.76"/>
+        <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Arch="neutral" Version="19.2506.40071.0"/>
+        <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Arch="neutral" Version="19.2506.40071.0"/>
+        <Package ID="Microsoft.MicrosoftOfficeHub_19.2506.40071.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftOfficeHub_8wekyb3d8bbwe" Arch="amd64" Version="19.2506.40071.0"/>
+        <Package ID="Microsoft.MicrosoftSolitaireCollection_4.22.5200.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Arch="neutral" Version="4.22.5200.0"/>
+        <Package ID="Microsoft.MicrosoftSolitaireCollection_4.22.5200.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftSolitaireCollection_8wekyb3d8bbwe" Arch="amd64" Version="4.22.5200.0"/>
+        <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe" Arch="neutral" Version="6.1.4.0"/>
+        <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe" Arch="neutral" Version="6.1.4.0"/>
+        <Package ID="Microsoft.MicrosoftStickyNotes_6.1.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MicrosoftStickyNotes_8wekyb3d8bbwe" Arch="amd64" Version="6.1.4.0"/>
+        <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Arch="neutral" Version="2000.21051.1282.0"/>
+        <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Arch="neutral" Version="2000.21051.1282.0"/>
+        <Package ID="Microsoft.MixedReality.Portal_2000.21051.1282.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MixedReality.Portal_8wekyb3d8bbwe" Arch="amd64" Version="2000.21051.1282.0"/>
+        <Package ID="Microsoft.MPEG2VideoExtension_1.0.61931.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe" Arch="neutral" Version="1.0.61931.0"/>
+        <Package ID="Microsoft.MPEG2VideoExtension_1.0.61931.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MPEG2VideoExtension_8wekyb3d8bbwe" Arch="amd64" Version="1.0.61931.0"/>
+        <Package ID="Microsoft.MSPaint_2019.729.2301.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.MSPaint_8wekyb3d8bbwe" Arch="neutral" Version="2019.729.2301.0"/>
+        <Package ID="Microsoft.MSPaint_6.1907.29027.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.MSPaint_8wekyb3d8bbwe" Arch="amd64" Version="6.1907.29027.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.1.7_8wekyb3d8bbwe" Arch="amd64" Version="1.7.27413.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.1.7_1.7.27413.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.1.7_8wekyb3d8bbwe" Arch="x86" Version="1.7.27413.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.2.2_8wekyb3d8bbwe" Arch="amd64" Version="2.2.29512.0"/>
+        <Package ID="Microsoft.NET.Native.Framework.2.2_2.2.29512.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Framework.2.2_8wekyb3d8bbwe" Arch="x86" Version="2.2.29512.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.1.7_8wekyb3d8bbwe" Arch="amd64" Version="1.7.27422.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.1.7_1.7.27422.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.1.7_8wekyb3d8bbwe" Arch="x86" Version="1.7.27422.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe" Arch="amd64" Version="2.2.28604.0"/>
+        <Package ID="Microsoft.NET.Native.Runtime.2.2_2.2.28604.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.NET.Native.Runtime.2.2_8wekyb3d8bbwe" Arch="x86" Version="2.2.28604.0"/>
+        <Package ID="Microsoft.Office.OneNote_16001.14326.22348.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Office.OneNote_8wekyb3d8bbwe" Arch="neutral" Version="16001.14326.22348.0"/>
+        <Package ID="Microsoft.Office.OneNote_16001.14326.22348.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Office.OneNote_8wekyb3d8bbwe" Arch="amd64" Version="16001.14326.22348.0"/>
+        <Package ID="Microsoft.OutlookForWindows_1.2025.604.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.OutlookForWindows_8wekyb3d8bbwe" Arch="amd64" Version="1.2025.604.0"/>
+        <Package ID="Microsoft.Paint_11.2503.381.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.Paint_8wekyb3d8bbwe" Arch="neutral" Version="11.2503.381.0"/>
+        <Package ID="Microsoft.Paint_11.2503.381.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Paint_8wekyb3d8bbwe" Arch="neutral" Version="11.2503.381.0"/>
+        <Package ID="Microsoft.Paint_11.2503.381.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Paint_8wekyb3d8bbwe" Arch="amd64" Version="11.2503.381.0"/>
+        <Package ID="Microsoft.People_10.2202.100.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.People_8wekyb3d8bbwe" Arch="neutral" Version="10.2202.100.0"/>
+        <Package ID="Microsoft.People_10.2202.100.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.People_8wekyb3d8bbwe" Arch="amd64" Version="10.2202.100.0"/>
+        <Package ID="Microsoft.People_2021.2202.100.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.People_8wekyb3d8bbwe" Arch="neutral" Version="2021.2202.100.0"/>
+        <Package ID="Microsoft.PowerAutomateDesktop_1.0.1420.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe" Arch="neutral" Version="1.0.1420.0"/>
+        <Package ID="Microsoft.PowerAutomateDesktop_1.0.1420.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe" Arch="amd64" Version="1.0.1420.0"/>
+        <Package ID="Microsoft.PowerAutomateDesktop_11.2506.143.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.PowerAutomateDesktop_8wekyb3d8bbwe" Arch="neutral" Version="11.2506.143.0"/>
+        <Package ID="Microsoft.RawImageExtension_2.5.5.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.RawImageExtension_8wekyb3d8bbwe" Arch="neutral" Version="2.5.5.0"/>
+        <Package ID="Microsoft.RawImageExtension_2.5.5.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.RawImageExtension_8wekyb3d8bbwe" Arch="amd64" Version="2.5.5.0"/>
+        <Package ID="Microsoft.ScreenSketch_11.2503.29.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.ScreenSketch_8wekyb3d8bbwe" Arch="neutral" Version="11.2503.29.0"/>
+        <Package ID="Microsoft.ScreenSketch_11.2503.29.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ScreenSketch_8wekyb3d8bbwe" Arch="amd64" Version="11.2503.29.0"/>
+        <Package ID="Microsoft.ScreenSketch_2022.2503.29.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ScreenSketch_8wekyb3d8bbwe" Arch="neutral" Version="2022.2503.29.0"/>
+        <Package ID="Microsoft.SecHealthUI_1000.27840.1000.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.SecHealthUI_8wekyb3d8bbwe" Arch="amd64" Version="1000.27840.1000.0"/>
+        <Package ID="Microsoft.Services.Store.Engagement_10.0.23012.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Services.Store.Engagement_8wekyb3d8bbwe" Arch="amd64" Version="10.0.23012.0"/>
+        <Package ID="Microsoft.Services.Store.Engagement_10.0.23012.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.Services.Store.Engagement_8wekyb3d8bbwe" Arch="x86" Version="10.0.23012.0"/>
+        <Package ID="Microsoft.SkypeApp_15.150.3125.0_neutral_~_kzf8qxf38zg5c" KeyForm="Microsoft.SkypeApp_kzf8qxf38zg5c" Arch="neutral" Version="15.150.3125.0"/>
+        <Package ID="Microsoft.SkypeApp_15.150.3125.0_x64__kzf8qxf38zg5c" KeyForm="Microsoft.SkypeApp_kzf8qxf38zg5c" Arch="amd64" Version="15.150.3125.0"/>
+        <Package ID="Microsoft.StorePurchaseApp_22504.1401.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.StorePurchaseApp_8wekyb3d8bbwe" Arch="neutral" Version="22504.1401.4.0"/>
+        <Package ID="Microsoft.StorePurchaseApp_22504.1401.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.StorePurchaseApp_8wekyb3d8bbwe" Arch="amd64" Version="22504.1401.4.0"/>
+        <Package ID="Microsoft.Todos_0.148.3611.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.Todos_8wekyb3d8bbwe" Arch="neutral" Version="0.148.3611.0"/>
+        <Package ID="Microsoft.Todos_0.148.3611.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Todos_8wekyb3d8bbwe" Arch="amd64" Version="0.148.3611.0"/>
+        <Package ID="Microsoft.Todos_2.148.3611.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Todos_8wekyb3d8bbwe" Arch="neutral" Version="2.148.3611.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.0_2.1810.18004.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.0_8wekyb3d8bbwe" Arch="amd64" Version="2.1810.18004.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.0_2.1810.18004.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.0_8wekyb3d8bbwe" Arch="x86" Version="2.1810.18004.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.3_2.32002.13001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.3_8wekyb3d8bbwe" Arch="amd64" Version="2.32002.13001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.3_2.32002.13001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.3_8wekyb3d8bbwe" Arch="x86" Version="2.32002.13001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.4_2.42007.9001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.4_8wekyb3d8bbwe" Arch="amd64" Version="2.42007.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.4_2.42007.9001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.4_8wekyb3d8bbwe" Arch="x86" Version="2.42007.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.7_7.2208.15002.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Arch="amd64" Version="7.2208.15002.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.7_7.2409.9001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Arch="amd64" Version="7.2409.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.7_7.2409.9001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.7_8wekyb3d8bbwe" Arch="x86" Version="7.2409.9001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.8_8.2310.30001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Arch="amd64" Version="8.2310.30001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.8_8.2501.31001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Arch="amd64" Version="8.2501.31001.0"/>
+        <Package ID="Microsoft.UI.Xaml.2.8_8.2501.31001.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.2.8_8wekyb3d8bbwe" Arch="x86" Version="8.2501.31001.0"/>
+        <Package ID="Microsoft.UI.Xaml.CBS_9.2311.10002.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.UI.Xaml.CBS_8wekyb3d8bbwe" Arch="amd64" Version="9.2311.10002.0"/>
+        <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.30704.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Arch="amd64" Version="14.0.30704.0"/>
+        <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Arch="amd64" Version="14.0.33728.0"/>
+        <Package ID="Microsoft.VCLibs.140.00.UWPDesktop_14.0.33728.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00.UWPDesktop_8wekyb3d8bbwe" Arch="x86" Version="14.0.33728.0"/>
+        <Package ID="Microsoft.VCLibs.140.00_14.0.30704.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Arch="amd64" Version="14.0.30704.0"/>
+        <Package ID="Microsoft.VCLibs.140.00_14.0.33519.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Arch="amd64" Version="14.0.33519.0"/>
+        <Package ID="Microsoft.VCLibs.140.00_14.0.33519.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.VCLibs.140.00_8wekyb3d8bbwe" Arch="x86" Version="14.0.33519.0"/>
+        <Package ID="Microsoft.VP9VideoExtensions_1.2.6.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe" Arch="neutral" Version="1.2.6.0"/>
+        <Package ID="Microsoft.VP9VideoExtensions_1.2.6.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.VP9VideoExtensions_8wekyb3d8bbwe" Arch="amd64" Version="1.2.6.0"/>
+        <Package ID="Microsoft.Wallet_2.4.18324.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Wallet_8wekyb3d8bbwe" Arch="neutral" Version="2.4.18324.0"/>
+        <Package ID="Microsoft.Wallet_2.4.18324.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Wallet_8wekyb3d8bbwe" Arch="amd64" Version="2.4.18324.0"/>
+        <Package ID="Microsoft.WebMediaExtensions_1.2.14.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WebMediaExtensions_8wekyb3d8bbwe" Arch="neutral" Version="1.2.14.0"/>
+        <Package ID="Microsoft.WebMediaExtensions_1.2.14.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WebMediaExtensions_8wekyb3d8bbwe" Arch="amd64" Version="1.2.14.0"/>
+        <Package ID="Microsoft.WebpImageExtension_1.2.10.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WebpImageExtension_8wekyb3d8bbwe" Arch="neutral" Version="1.2.10.0"/>
+        <Package ID="Microsoft.WebpImageExtension_1.2.10.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WebpImageExtension_8wekyb3d8bbwe" Arch="amd64" Version="1.2.10.0"/>
+        <Package ID="Microsoft.Windows.AugLoop.CBS_1.1126.2131.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Windows.AugLoop.CBS_8wekyb3d8bbwe" Arch="amd64" Version="1.1126.2131.0"/>
+        <Package ID="Microsoft.Windows.DevHome_0.2100.858.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.Windows.DevHome_8wekyb3d8bbwe" Arch="neutral" Version="0.2100.858.0"/>
+        <Package ID="Microsoft.Windows.DevHome_0.2100.858.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Windows.DevHome_8wekyb3d8bbwe" Arch="amd64" Version="0.2100.858.0"/>
+        <Package ID="Microsoft.Windows.DevHome_0.2101.858.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Windows.DevHome_8wekyb3d8bbwe" Arch="neutral" Version="0.2101.858.0"/>
+        <Package ID="Microsoft.Windows.Photos_2025.11040.23001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Windows.Photos_8wekyb3d8bbwe" Arch="neutral" Version="2025.11040.23001.0"/>
+        <Package ID="Microsoft.Windows.Photos_2025.11040.23001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Windows.Photos_8wekyb3d8bbwe" Arch="amd64" Version="2025.11040.23001.0"/>
+        <Package ID="Microsoft.WindowsAlarms_11.2503.4.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAlarms_8wekyb3d8bbwe" Arch="neutral" Version="11.2503.4.0"/>
+        <Package ID="Microsoft.WindowsAlarms_11.2503.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAlarms_8wekyb3d8bbwe" Arch="amd64" Version="11.2503.4.0"/>
+        <Package ID="Microsoft.WindowsAlarms_2021.2503.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAlarms_8wekyb3d8bbwe" Arch="neutral" Version="2021.2503.4.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1136.2333.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Arch="amd64" Version="4000.1136.2333.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Arch="amd64" Version="4000.1309.2056.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.4_4000.1309.2056.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.4_8wekyb3d8bbwe" Arch="x86" Version="4000.1309.2056.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe" Arch="amd64" Version="5001.373.1736.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.5_5001.373.1736.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.5_8wekyb3d8bbwe" Arch="x86" Version="5001.373.1736.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.486.517.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe" Arch="amd64" Version="6000.486.517.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe" Arch="amd64" Version="6000.519.329.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.6_6000.519.329.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.6_8wekyb3d8bbwe" Arch="x86" Version="6000.519.329.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.498.2246.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.7_8wekyb3d8bbwe" Arch="amd64" Version="7000.498.2246.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.7_8wekyb3d8bbwe" Arch="amd64" Version="7000.522.1444.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.1.7_7000.522.1444.0_x86__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.1.7_8wekyb3d8bbwe" Arch="x86" Version="7000.522.1444.0"/>
+        <Package ID="Microsoft.WindowsAppRuntime.CBS.1.6_6000.498.2125.100_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.CBS.1.6_8wekyb3d8bbwe" Arch="amd64" Version="6000.498.2125.100"/>
+        <Package ID="Microsoft.WindowsAppRuntime.CBS_5001.373.1736.100_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsAppRuntime.CBS_8wekyb3d8bbwe" Arch="amd64" Version="5001.373.1736.100"/>
+        <Package ID="Microsoft.WindowsCalculator_11.2502.2.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCalculator_8wekyb3d8bbwe" Arch="neutral" Version="11.2502.2.0"/>
+        <Package ID="Microsoft.WindowsCalculator_11.2502.2.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCalculator_8wekyb3d8bbwe" Arch="amd64" Version="11.2502.2.0"/>
+        <Package ID="Microsoft.WindowsCalculator_2021.2502.2.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCalculator_8wekyb3d8bbwe" Arch="neutral" Version="2021.2502.2.0"/>
+        <Package ID="Microsoft.WindowsCamera_2022.2502.17.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCamera_8wekyb3d8bbwe" Arch="neutral" Version="2022.2502.17.0"/>
+        <Package ID="Microsoft.WindowsCamera_2025.2502.17.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCamera_8wekyb3d8bbwe" Arch="neutral" Version="2025.2502.17.0"/>
+        <Package ID="Microsoft.WindowsCamera_2025.2502.17.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsCamera_8wekyb3d8bbwe" Arch="amd64" Version="2025.2502.17.0"/>
+        <Package ID="microsoft.windowscommunicationsapps_16005.14326.22342.0_neutral_~_8wekyb3d8bbwe" KeyForm="microsoft.windowscommunicationsapps_8wekyb3d8bbwe" Arch="neutral" Version="16005.14326.22342.0"/>
+        <Package ID="microsoft.windowscommunicationsapps_16005.14326.22342.0_x64__8wekyb3d8bbwe" KeyForm="microsoft.windowscommunicationsapps_8wekyb3d8bbwe" Arch="amd64" Version="16005.14326.22342.0"/>
+        <Package ID="Microsoft.WindowsFeedbackHub_1.2505.1101.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Arch="neutral" Version="1.2505.1101.0"/>
+        <Package ID="Microsoft.WindowsFeedbackHub_1.2505.1101.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Arch="amd64" Version="1.2505.1101.0"/>
+        <Package ID="Microsoft.WindowsFeedbackHub_2025.501.912.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" Arch="neutral" Version="2025.501.912.0"/>
+        <Package ID="Microsoft.WindowsMaps_11.2503.1.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsMaps_8wekyb3d8bbwe" Arch="neutral" Version="11.2503.1.0"/>
+        <Package ID="Microsoft.WindowsMaps_11.2503.1.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsMaps_8wekyb3d8bbwe" Arch="amd64" Version="11.2503.1.0"/>
+        <Package ID="Microsoft.WindowsMaps_2022.2503.1.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsMaps_8wekyb3d8bbwe" Arch="neutral" Version="2022.2503.1.0"/>
+        <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsNotepad_8wekyb3d8bbwe" Arch="neutral" Version="11.2503.16.0"/>
+        <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsNotepad_8wekyb3d8bbwe" Arch="neutral" Version="11.2503.16.0"/>
+        <Package ID="Microsoft.WindowsNotepad_11.2503.16.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsNotepad_8wekyb3d8bbwe" Arch="amd64" Version="11.2503.16.0"/>
+        <Package ID="Microsoft.WindowsSoundRecorder_11.2504.0.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" Arch="neutral" Version="11.2504.0.0"/>
+        <Package ID="Microsoft.WindowsSoundRecorder_11.2504.0.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" Arch="amd64" Version="11.2504.0.0"/>
+        <Package ID="Microsoft.WindowsSoundRecorder_2021.2504.0.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsSoundRecorder_8wekyb3d8bbwe" Arch="neutral" Version="2021.2504.0.0"/>
+        <Package ID="Microsoft.WindowsStore_22504.1401.19.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsStore_8wekyb3d8bbwe" Arch="neutral" Version="22504.1401.19.0"/>
+        <Package ID="Microsoft.WindowsStore_22504.1401.19.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsStore_8wekyb3d8bbwe" Arch="amd64" Version="22504.1401.19.0"/>
+        <Package ID="Microsoft.WindowsTerminal_1.22.11141.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.WindowsTerminal_8wekyb3d8bbwe" Arch="amd64" Version="1.22.11141.0"/>
+        <Package ID="Microsoft.WindowsTerminal_3001.22.11141.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.WindowsTerminal_8wekyb3d8bbwe" Arch="neutral" Version="3001.22.11141.0"/>
+        <Package ID="Microsoft.Xbox.TCUI_1.24.10001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Arch="neutral" Version="1.24.10001.0"/>
+        <Package ID="Microsoft.Xbox.TCUI_1.24.10001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.Xbox.TCUI_8wekyb3d8bbwe" Arch="amd64" Version="1.24.10001.0"/>
+        <Package ID="Microsoft.XboxApp_48.104.4001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxApp_8wekyb3d8bbwe" Arch="neutral" Version="48.104.4001.0"/>
+        <Package ID="Microsoft.XboxApp_48.104.4001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxApp_8wekyb3d8bbwe" Arch="amd64" Version="48.104.4001.0"/>
+        <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGameOverlay_8wekyb3d8bbwe" Arch="neutral" Version="1.54.4001.0"/>
+        <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGameOverlay_8wekyb3d8bbwe" Arch="neutral" Version="1.54.4001.0"/>
+        <Package ID="Microsoft.XboxGameOverlay_1.54.4001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxGameOverlay_8wekyb3d8bbwe" Arch="amd64" Version="1.54.4001.0"/>
+        <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Arch="neutral" Version="7.325.5191.0"/>
+        <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Arch="neutral" Version="7.325.5191.0"/>
+        <Package ID="Microsoft.XboxGamingOverlay_7.325.5191.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxGamingOverlay_8wekyb3d8bbwe" Arch="amd64" Version="7.325.5191.0"/>
+        <Package ID="Microsoft.XboxIdentityProvider_12.115.1001.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxIdentityProvider_8wekyb3d8bbwe" Arch="neutral" Version="12.115.1001.0"/>
+        <Package ID="Microsoft.XboxIdentityProvider_12.115.1001.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxIdentityProvider_8wekyb3d8bbwe" Arch="amd64" Version="12.115.1001.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Arch="neutral" Version="1.97.17002.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_neutral_split.scale-125_8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Arch="neutral" Version="1.97.17002.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_1.97.17002.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Arch="amd64" Version="1.97.17002.0"/>
+        <Package ID="Microsoft.XboxSpeechToTextOverlay_2024.401.618.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.XboxSpeechToTextOverlay_8wekyb3d8bbwe" Arch="neutral" Version="2024.401.618.0"/>
+        <Package ID="Microsoft.YourPhone_1.25042.96.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.YourPhone_8wekyb3d8bbwe" Arch="neutral" Version="1.25042.96.0"/>
+        <Package ID="Microsoft.YourPhone_1.25042.96.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.YourPhone_8wekyb3d8bbwe" Arch="neutral" Version="1.25042.96.0"/>
+        <Package ID="Microsoft.YourPhone_1.25042.96.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.YourPhone_8wekyb3d8bbwe" Arch="amd64" Version="1.25042.96.0"/>
+        <Package ID="Microsoft.ZuneMusic_11.2504.4.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneMusic_8wekyb3d8bbwe" Arch="neutral" Version="11.2504.4.0"/>
+        <Package ID="Microsoft.ZuneMusic_11.2504.4.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneMusic_8wekyb3d8bbwe" Arch="neutral" Version="11.2504.4.0"/>
+        <Package ID="Microsoft.ZuneMusic_11.2504.4.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ZuneMusic_8wekyb3d8bbwe" Arch="amd64" Version="11.2504.4.0"/>
+        <Package ID="Microsoft.ZuneVideo_10.25041.10021.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneVideo_8wekyb3d8bbwe" Arch="neutral" Version="10.25041.10021.0"/>
+        <Package ID="Microsoft.ZuneVideo_10.25041.10021.0_x64__8wekyb3d8bbwe" KeyForm="Microsoft.ZuneVideo_8wekyb3d8bbwe" Arch="amd64" Version="10.25041.10021.0"/>
+        <Package ID="Microsoft.ZuneVideo_2019.25041.10021.0_neutral_~_8wekyb3d8bbwe" KeyForm="Microsoft.ZuneVideo_8wekyb3d8bbwe" Arch="neutral" Version="2019.25041.10021.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_neutral_split.scale-100_8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Arch="neutral" Version="2.0.29.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_neutral_split.scale-125_8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Arch="neutral" Version="2.0.29.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2.0.29.0_x64__8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Arch="amd64" Version="2.0.29.0"/>
+        <Package ID="MicrosoftCorporationII.QuickAssist_2024.401.618.0_neutral_~_8wekyb3d8bbwe" KeyForm="MicrosoftCorporationII.QuickAssist_8wekyb3d8bbwe" Arch="neutral" Version="2024.401.618.0"/>
+        <Package ID="MicrosoftWindows.Client.WebExperience_525.10401.30.0_neutral_~_cw5n1h2txyewy" KeyForm="MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy" Arch="neutral" Version="525.10401.30.0"/>
+        <Package ID="MicrosoftWindows.Client.WebExperience_525.10401.30.0_x64__cw5n1h2txyewy" KeyForm="MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy" Arch="amd64" Version="525.10401.30.0"/>
+        <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_neutral_split.scale-100_cw5n1h2txyewy" KeyForm="MicrosoftWindows.CrossDevice_cw5n1h2txyewy" Arch="neutral" Version="1.25042.38.0"/>
+        <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_neutral_~_cw5n1h2txyewy" KeyForm="MicrosoftWindows.CrossDevice_cw5n1h2txyewy" Arch="neutral" Version="1.25042.38.0"/>
+        <Package ID="MicrosoftWindows.CrossDevice_1.25042.38.0_x64__cw5n1h2txyewy" KeyForm="MicrosoftWindows.CrossDevice_cw5n1h2txyewy" Arch="amd64" Version="1.25042.38.0"/>
+        <Package ID="MSTeams_25122.1415.3698.6812_x64__8wekyb3d8bbwe" KeyForm="MSTeams_8wekyb3d8bbwe" Arch="amd64" Version="25122.1415.3698.6812"/>
+    </EnumeratedPackages>
+    <Languages>
+        <Language Id="en-US"/>
+    </Languages>
+    <Architectures>
+        <Architecture Id="WOW64"/>
+    </Architectures>
+    <ValuePair>
+        <Pair Name="Arch" Value="amd64"/>
+        <Pair Name="BuildBranch" Value="ge_release"/>
+        <Pair Name="BuildLayer.Branch.DesktopEditions" Value="ge_release"/>
+        <Pair Name="BuildLayer.Branch.OnecoreUAP" Value="ge_release"/>
+        <Pair Name="BuildLayer.Branch.OSClient" Value="ge_release_svc_prod1"/>
+        <Pair Name="BuildLayer.Branch.ShellCommon" Value="ge_release_svc_prod1"/>
+        <Pair Name="BuildLayer.OrderNumber.DesktopEditions" Value="12288"/>
+        <Pair Name="BuildLayer.OrderNumber.OnecoreUAP" Value="4096"/>
+        <Pair Name="BuildLayer.OrderNumber.OSClient" Value="8192"/>
+        <Pair Name="BuildLayer.OrderNumber.ShellCommon" Value="8192"/>
+        <Pair Name="BuildLayer.TopLevel" Value="DesktopEditions"/>
+        <Pair Name="BuildLayer.Version.DesktopEditions" Value="10.0.26100.4349"/>
+        <Pair Name="BuildLayer.Version.OnecoreUAP" Value="10.0.26100.4349"/>
+        <Pair Name="BuildLayer.Version.OSClient" Value="10.0.26100.4349"/>
+        <Pair Name="BuildLayer.Version.ShellCommon" Value="10.0.26100.4349"/>
+        <Pair Name="CBSEdition" Value="Professional"/>
+        <Pair Name="EdgeInventoryCollected" Value="1"/>
+        <Pair Name="EditionVersion" Value="10.0.26100.4349"/>
+        <Pair Name="GeoLocationCountryCode" Value="IN"/>
+        <Pair Name="HotPatchEligible" Value="0"/>
+        <Pair Name="HotPatchReadiness" Value="0"/>
+        <Pair Name="OSBaseVersion" Value="10.0.26100.1"/>
+        <Pair Name="PreInstalledAppInventoryCollected" Value="1"/>
+        <Pair Name="SystemLanguage" Value="en-US"/>
+        <Pair Name="UUPProductInventoryCollected" Value="1"/>
+    </ValuePair>
+</CompDB>

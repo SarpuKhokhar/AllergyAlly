@@ -17,7 +17,6 @@ const SignupScreen = ({ navigation }) => {
   const [form, setForm] = useState({});
   const [showPassword, setShowPassword] = useState(false);
   const [countryCode, setCountryCode] = useState('IN');
-  const [country, setCountry] = useState(null);
 
   const handleChange = (key, value) => {
     setForm({ ...form, [key]: value });
@@ -44,6 +43,7 @@ const SignupScreen = ({ navigation }) => {
             </View>
             <TextInput
               placeholder="First Name"
+              placeholderTextColor="#888"
               style={styles.input}
               onChangeText={(val) => handleChange('firstName', val)}
             />
@@ -54,24 +54,26 @@ const SignupScreen = ({ navigation }) => {
             </View>
             <TextInput
               placeholder="Last Name"
+              placeholderTextColor="#888"
               style={styles.input}
               onChangeText={(val) => handleChange('lastName', val)}
             />
           </View>
         </View>
 
-        {/* Email */}
         <View style={styles.inputContainer}>
           <View style={styles.iconWrapper}>
             <Icon name="mail" size={20} color="#FEAB5B" />
           </View>
           <TextInput
             placeholder="Your Email"
+            placeholderTextColor="#888"
             style={styles.input}
             keyboardType="email-address"
             onChangeText={(val) => handleChange('email', val)}
           />
         </View>
+
         <View style={styles.inputContainer}>
           <CountryPicker
             countryCode={countryCode}
@@ -86,21 +88,25 @@ const SignupScreen = ({ navigation }) => {
           />
           <TextInput
             placeholder="Phone Number"
+            placeholderTextColor="#888"
             style={styles.input}
             keyboardType="phone-pad"
             onChangeText={(val) => handleChange('phone', val)}
           />
         </View>
+
         <View style={styles.inputContainer}>
           <View style={styles.iconWrapper}>
             <Icon name="briefcase" size={20} color="#FEAB5B" />
           </View>
           <TextInput
             placeholder="Practice Code"
+            placeholderTextColor="#888"
             style={styles.input}
             onChangeText={(val) => handleChange('practiceCode', val)}
           />
         </View>
+
         <View style={styles.row}>
           <View style={styles.inputContainer}>
             <View style={styles.iconWrapper}>
@@ -108,6 +114,7 @@ const SignupScreen = ({ navigation }) => {
             </View>
             <TextInput
               placeholder="Height"
+              placeholderTextColor="#888"
               style={styles.input}
               onChangeText={(val) => handleChange('height', val)}
             />
@@ -118,11 +125,13 @@ const SignupScreen = ({ navigation }) => {
             </View>
             <TextInput
               placeholder="Weight"
+              placeholderTextColor="#888"
               style={styles.input}
               onChangeText={(val) => handleChange('weight', val)}
             />
           </View>
         </View>
+
         <View style={styles.inputContainer}>
           <View style={styles.iconWrapper}>
             <Icon name="calendar" size={20} color="#FEAB5B" />
@@ -131,22 +140,25 @@ const SignupScreen = ({ navigation }) => {
             <Text style={styles.label}>DOB</Text>
             <TextInput
               placeholder="DD-MM-YYYY"
+              placeholderTextColor="#888"
               value={form.dob}
               onChangeText={(val) => handleChange('dob', val)}
               style={styles.inputWithLabel}
               keyboardType="numeric"
             />
           </View>
-          <TouchableOpacity onPress={() => { }}>
+          <TouchableOpacity onPress={() => {}}>
             <MaterialIcons name="card-giftcard" size={20} color="#0AA97E" />
           </TouchableOpacity>
         </View>
+
         <View style={styles.inputContainer}>
           <View style={styles.iconWrapper}>
             <Icon name="lock" size={20} color="#FEAB5B" />
           </View>
           <TextInput
             placeholder="Your Password"
+            placeholderTextColor="#888"
             style={styles.input}
             secureTextEntry={!showPassword}
             onChangeText={(val) => handleChange('password', val)}
@@ -166,6 +178,7 @@ const SignupScreen = ({ navigation }) => {
         >
           <Text style={styles.buttonText}>Create Account</Text>
         </TouchableOpacity>
+
         <Text style={styles.terms}>
           By Creating Passcode You Agree With Our{'\n'}
           <Text style={styles.link}>Terms & Conditions</Text> And{' '}
@@ -212,7 +225,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10,
     marginBottom: 15,
     borderWidth: 1,
-    borderColor: '#ccc', 
+    borderColor: '#ccc',
     flex: 1,
     width: '100%',
   },
@@ -226,13 +239,13 @@ const styles = StyleSheet.create({
   },
   input: {
     flex: 1,
-    paddingVertical: 20,
+    paddingVertical: 19,
     fontSize: 14,
     color: '#333',
   },
   inputWithLabel: {
     fontSize: 14,
-    paddingVertical: 4,
+    paddingVertical: 6,
     color: '#000',
   },
   label: {

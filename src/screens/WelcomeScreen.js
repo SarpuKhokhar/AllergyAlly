@@ -4,11 +4,13 @@ import {
   Text,
   ImageBackground,
   StyleSheet,
-  TouchableOpacity
+  TouchableOpacity,
+  Dimensions,
 } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
-import Ionicons from 'react-native-vector-icons/Ionicons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+
+const { width, height } = Dimensions.get('window');
 
 const WelcomeScreen = ({ navigation }) => {
   return (
@@ -18,27 +20,29 @@ const WelcomeScreen = ({ navigation }) => {
       resizeMode="cover"
     >
       <View style={styles.overlay}>
-        <Text style={styles.title}>Welcome to</Text>
-        <Text style={styles.subTitle}>AllergyAlly</Text>
-<LinearGradient
-  colors={['rgba(74, 175, 247, 0)', '#0475A0CC', '#066AB6CC']} // top color with 00 alpha for full transparency
-  style={styles.gradientBox}
->
-  <View style={styles.bottomContent}>
-    <View>
-      <Text style={styles.infoText}>Manage your allergies from</Text>
-      <Text style={styles.infoTextBold}>Anywhere, at Anytime</Text>
-    </View>
+        <View style={styles.titleContainer}>
+          <Text style={styles.title}>Welcome to</Text>
+          <Text style={styles.subTitle}>AllergyAlly</Text>
+        </View>
 
-    <TouchableOpacity
-      onPress={() => navigation.navigate('Signup')}
-      style={styles.nextBtn}
-    >
-      <MaterialCommunityIcons name="chevron-double-right" size={28} color="#158eebcc" />
-    </TouchableOpacity>
-  </View>
-</LinearGradient>
+        <LinearGradient
+          colors={['rgba(74, 175, 247, 0)', '#0475A0CC', '#066AB6CC']}
+          style={styles.gradientBox}
+        >
+          <View style={styles.bottomContent}>
+            <View>
+              <Text style={styles.infoText}>Manage your allergies from</Text>
+              <Text style={styles.infoTextBold}>Anywhere, at Anytime</Text>
+            </View>
 
+            <TouchableOpacity
+              onPress={() => navigation.navigate('Signup')}
+              style={styles.nextBtn}
+            >
+              <MaterialCommunityIcons name="chevron-double-right" size={28} color="#158eebcc" />
+            </TouchableOpacity>
+          </View>
+        </LinearGradient>
       </View>
     </ImageBackground>
   );
@@ -46,61 +50,66 @@ const WelcomeScreen = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   background: {
-    flex: 1
+    flex: 1,
+    width: '100%',
+    height: '100%',
   },
   overlay: {
     flex: 1,
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+  },
+  titleContainer: {
+    marginTop: height * 0.08,
+    marginLeft: width * 0.05,
   },
   title: {
-    fontSize: 50,
+    fontSize: width * 0.12,
     fontWeight: '800',
     color: '#000',
-    marginTop: 60,
-    marginLeft: 20,
-    
   },
   subTitle: {
-    position:'absolute',
-    fontSize: 24,
+    fontSize: width * 0.06,
     fontWeight: '700',
     color: '#000',
-    marginLeft: 20,
-    top:115
+    bottom:10
   },
   gradientBox: {
     position: 'absolute',
     bottom: 0,
     width: '100%',
-    height: 170,
-    padding: 20,
+    height: height * 0.22,
+    paddingHorizontal: width * 0.06,
+    paddingVertical: height * 0.03,
     justifyContent: 'center',
     borderTopLeftRadius: 20,
-    borderTopRightRadius: 20
+    borderTopRightRadius: 20,
   },
   bottomContent: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   infoText: {
-    fontSize: 23,
-    color: '#fff'
+    fontSize: width * 0.05,
+    color: '#fff',
+  letterSpacing:2
   },
   infoTextBold: {
-    fontSize: 20,
+    fontSize: width * 0.08,
     fontWeight: 'bold',
-    color: '#fff'
+    color: '#fff',
+      // lineHeight:10,
+    letterSpacing:0.5
   },
   nextBtn: {
     backgroundColor: '#FFF',
-    width: 65,
-    height: 65,
-    borderRadius: 36,
+    width: width * 0.16,
+    height: width * 0.16,
+    borderRadius: (width * 0.16) / 2,
     alignItems: 'center',
     justifyContent: 'center',
-    right:10
-  }
+    marginRight: 5,
+  },
 });
 
 export default WelcomeScreen;

@@ -7,9 +7,13 @@ import {
   StyleSheet,
   ImageBackground,
   Image,
+  Dimensions,
+  ScrollView,
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+
+const { width } = Dimensions.get('window');
 
 const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState('');
@@ -22,7 +26,7 @@ const LoginScreen = ({ navigation }) => {
       style={styles.background}
       resizeMode="cover"
     >
-      <View style={styles.overlay}>
+      <ScrollView contentContainerStyle={styles.overlay} showsVerticalScrollIndicator={false}>
         <Image
           source={require('../../assets/images/shield.png')}
           style={styles.logo}
@@ -37,6 +41,7 @@ const LoginScreen = ({ navigation }) => {
           </View>
           <TextInput
             placeholder="Your Email"
+            placeholderTextColor="#999"
             style={styles.input}
             value={email}
             onChangeText={setEmail}
@@ -51,6 +56,7 @@ const LoginScreen = ({ navigation }) => {
           </View>
           <TextInput
             placeholder="Your Password"
+            placeholderTextColor="#999"
             style={styles.input}
             value={password}
             onChangeText={setPassword}
@@ -67,19 +73,19 @@ const LoginScreen = ({ navigation }) => {
         </View>
 
         {/* Forgot Password */}
-        <TouchableOpacity>
+        <TouchableOpacity style={styles.forgotContainer}>
           <Text style={styles.forgotText}>Forgot Password</Text>
         </TouchableOpacity>
 
         {/* Login Button */}
-      <TouchableOpacity
-  style={styles.loginButton}
-  onPress={() => navigation.replace('MainTabs')}
->
-  <Text style={styles.loginText}>Patient Login</Text>
-  <MaterialCommunityIcons name="chevron-right" size={20} color="white" />
-</TouchableOpacity>
-      </View>
+        <TouchableOpacity
+          style={styles.loginButton}
+          onPress={() => navigation.replace('MainTabs')}
+        >
+          <Text style={styles.loginText}>Patient Login</Text>
+          <MaterialCommunityIcons name="chevron-right" size={20} color="white" />
+        </TouchableOpacity>
+      </ScrollView>
     </ImageBackground>
   );
 };
@@ -91,27 +97,29 @@ const styles = StyleSheet.create({
     height: '100%',
   },
   overlay: {
-    flex: 1,
-    paddingHorizontal: 24,
+    flexGrow: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    paddingHorizontal: 24,
+    paddingVertical: 40,
   },
   logo: {
-    width: 60,
-    height: 60,
-    marginBottom: 10,
+    width: width * 0.18,
+    height: width * 0.18,
     resizeMode: 'contain',
+    marginBottom: 10,
   },
   title: {
-    fontSize: 28,
+    fontSize: width * 0.07,
     fontWeight: 'bold',
     color: '#000',
-    marginBottom: 8,
+    marginBottom: 6,
   },
   subtitle: {
-    fontSize: 19,
+    fontSize: width * 0.045,
     color: '#444',
-    marginBottom: 25,
+    marginBottom: 24,
+    textAlign: 'center',
   },
   inputContainer: {
     flexDirection: 'row',
@@ -141,26 +149,28 @@ const styles = StyleSheet.create({
   eyeIcon: {
     paddingHorizontal: 5,
   },
-  forgotText: {
-    marginLeft: 240,
-    color: '#0052BB',
+  forgotContainer: {
+    alignSelf: 'flex-end',
     marginBottom: 25,
+  },
+  forgotText: {
+    color: '#0052BB',
     fontWeight: '700',
   },
   loginButton: {
-    flexDirection:'row',
+    flexDirection: 'row',
     backgroundColor: '#0A59D6',
-    alignItems:'center',
-    justifyContent:'center',
+    alignItems: 'center',
+    justifyContent: 'center',
     borderRadius: 10,
     paddingVertical: 14,
     width: '100%',
-    top: 20,
+    marginTop: 20,
   },
-loginText: {
-  color: 'white',
-  fontSize: 16,
-  marginRight: 6, 
+  loginText: {
+    color: 'white',
+    fontSize: 16,
+    marginRight: 6,
   },
 });
 
